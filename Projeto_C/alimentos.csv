@@ -1,0 +1,101 @@
+Numero;Descricao;Umidade;Energia;Proteina;Carboidrato;Categoria
+1;Arroz, integral, cozido;70.1;124;2.6;25.8;Cereais e derivados
+7;Aveia, flocos, crua;9.1;394;13.9;66.6;Cereais e derivados
+8;Biscoito, doce, maisena;3.2;443;8.1;75.2;Cereais e derivados
+13;Biscoito, salgado, cream cracker;4.1;432;10.1;68.7;Cereais e derivados
+33;Farinha, de milho, amarela;11.8;351;7.2;79.1;Cereais e derivados
+35;Farinha, de trigo;13.0;360;9.8;75.1;Cereais e derivados
+40;Macarrão, trigo, cru;10.2;371;10.0;77.9;Cereais e derivados
+53;Pão, trigo, francês;28.5;300;8.0;58.6;Cereais e derivados
+61;Pipoca, com óleo de soja, sem sal;2.8;448;9.9;70.3;Cereais e derivados
+62;Polenta, pré-cozida;72.7;103;2.3;23.3;Cereais e derivados
+64;Abóbora, cabotian, cozida;86.4;48;1.4;10.8;Verduras, hortaliças e derivados
+75;Agrião, cru;93.9;17;2.7;2.3;Verduras, hortaliças e derivados
+82;Alho, cru;67.5;113;7.0;23.9;Verduras, hortaliças e derivados
+88;Batata, doce, cozida;80.4;77;0.6;18.4;Verduras, hortaliças e derivados
+92;Batata, inglesa, crua;82.9;64;1.8;14.7;Verduras, hortaliças e derivados
+101;Brócolis, cru;91.2;25;3.6;4.0;Verduras, hortaliças e derivados
+107;Cebola, crua;88.9;39;1.7;8.9;Verduras, hortaliças e derivados
+110;Cenoura, crua;90.1;34;1.3;7.7;Verduras, hortaliças e derivados
+115;Couve, manteiga, crua;90.9;27;2.9;4.3;Verduras, hortaliças e derivados
+121;Farinha, de mandioca, crua;9.4;361;1.6;87.9;Verduras, hortaliças e derivados
+129;Mandioca, cozida;68.7;125;0.6;30.1;Verduras, hortaliças e derivados
+147;Quiabo, cru;90.6;30;1.9;6.4;Verduras, hortaliças e derivados
+157;Tomate, com semente, cru;95.1;15;1.1;3.1;Verduras, hortaliças e derivados
+163;Abacate, cru;83.8;96;1.2;6.0;Frutas e derivados
+164;Abacaxi, cru;86.3;48;0.9;12.3;Frutas e derivados
+169;Acerola, crua;90.5;33;0.9;8.0;Frutas e derivados
+179;Banana, nanica, crua;73.8;92;1.4;23.8;Frutas e derivados
+182;Banana, prata, crua;71.9;98;1.3;26.0;Frutas e derivados
+186;Caju, cru;88.1;43;1.0;10.3;Frutas e derivados
+200;Goiaba, vermelha, com casca, crua;85.0;54;1.1;13.0;Frutas e derivados
+214;Laranja, pêra, crua;89.6;37;1.0;8.9;Frutas e derivados
+226;Mamão, Papaia, cru;88.6;40;0.5;10.4;Frutas e derivados
+231;Manga, Tommy Atkins, crua;85.8;51;0.9;12.8;Frutas e derivados
+232;Maracujá, cru;82.9;68;2.0;12.3;Frutas e derivados
+235;Melancia, crua;90.7;33;0.9;8.1;Frutas e derivados
+239;Morango, cru;91.5;30;0.9;6.8;Frutas e derivados
+257;Uva, Rubi, crua;86.1;49;0.6;12.7;Frutas e derivados
+261;Manteiga, com sal;15.8;726;0.4;0.1;Gorduras e óleos
+263;Margarina, com óleo hidrogenado, com sal (65% de lipídeos);32.2;596;0.0;0.0;Gorduras e óleos
+260;Azeite, de oliva, extra virgem;0.0;884;0.0;0.0;Gorduras e óleos
+259;Azeite, de dendê;0.0;884;0.0;0.0;Gorduras e óleos
+272;Óleo, de soja;0.0;884;0.0;0.0;Gorduras e óleos
+278;Atum, fresco, cru;73.1;118;25.7;0.0;Pescados e frutos do mar
+279;Bacalhau, salgado, cru;47.9;136;29.0;0.0;Pescados e frutos do mar
+283;Cação, posta, crua;81.4;83;17.9;0.0;Pescados e frutos do mar
+285;Camarão, Rio Grande, grande, cru;89.1;47;10.0;0.0;Pescados e frutos do mar
+287;Caranguejo, cozido;77.0;83;18.5;0.0;Pescados e frutos do mar
+302;Merluza, filé, cru;82.1;89;16.6;0.0;Pescados e frutos do mar
+316;Salmão, sem pele, fresco, cru;69.0;170;19.3;0.0;Pescados e frutos do mar
+321;Sardinha, inteira, crua;76.6;114;21.1;0.0;Pescados e frutos do mar
+327;Carne, bovina, acém, moído, cru;72.7;137;19.4;0.0;Carnes e derivados
+345;Carne, bovina, contra-filé, sem gordura, cru;69.1;157;24.0;0.0;Carnes e derivados
+355;Carne, bovina, fígado, cru;71.3;141;20.7;1.1;Carnes e derivados
+376;Carne, bovina, patinho, sem gordura, cru;72.9;133;21.7;0.0;Carnes e derivados
+382;Carne, bovina, picanha, sem gordura, crua;72.4;134;21.3;0.0;Carnes e derivados
+405;Frango, inteiro, sem pele, cru;74.9;129;20.6;0.0;Carnes e derivados
+409;Frango, peito, sem pele, cru;74.8;119;21.5;0.0;Carnes e derivados
+421;Lingüiça, porco, crua;62.5;227;16.1;0.0;Carnes e derivados
+424;Mortadela;56.4;269;12.0;5.8;Carnes e derivados
+433;Porco, lombo, cru;67.7;176;22.6;0.0;Carnes e derivados
+436;Porco, pernil, cru;67.1;186;20.1;0.0;Carnes e derivados
+443;Salame;34.7;398;25.8;2.9;Carnes e derivados
+448;logurte, natural;90.0;51;4.1;1.9;Leite e derivados
+453;Leite, condensado;27.0;313;7.7;57.0;Leite e derivados
+454;Leite, de cabra;87.1;66;3.1;5.2;Leite e derivados
+458;Leite, de vaca, integral;87.4;60;3.2;4.8;Leite e derivados
+459;Leite, de vaca, integral, pó;2.7;497;25.4;39.2;Leite e derivados
+461;Queijo, minas, frescal;56.1;264;17.4;3.2;Leite e derivados
+463;Queijo, mozarela;45.3;330;22.6;3.0;Leite e derivados
+464;Queijo, parmesão;21.2;453;35.6;1.7;Leite e derivados
+467;Queijo, prato;42.4;360;22.7;1.9;Leite e derivados
+469;Queijo, ricota;73.6;140;12.6;3.8;Leite e derivados
+484;Omelete, de queijo;60.5;268;15.6;0.4;Ovos e derivados
+485;Ovo, de codorna, inteiro, cru;71.7;177;13.7;0.8;Ovos e derivados
+486;Ovo, de galinha, clara, cozida/10minutos;85.2;59;13.4;0.0;Ovos e derivados
+488;Ovo, de galinha, inteiro, cozido/10minutos;75.8;146;13.3;0.6;Ovos e derivados
+490;Ovo, de galinha, inteiro, frito;63.5;240;15.6;1.2;Ovos e derivados
+557;Amendoim, grão, cru;6.4;544;27.2;20.3;Leguminosas e derivados
+561;Feijão, carioca, cozido;80.4;76;4.8;13.6;Leguminosas e derivados
+567;Feijão, preto, cozido;80.2;77;4.5;14.0;Leguminosas e derivados
+575;Grão-de-bico, cru;12.3;355;21.2;57.9;Leguminosas e derivados
+577;Lentilha, cozida;76.3;93;6.3;16.3;Leguminosas e derivados
+581;Soja, farinha;5.8;404;36.0;38.4;Leguminosas e derivados
+584;Soja, queijo (tofu);86.6;64;6.6;2.1;Leguminosas e derivados
+587;Amêndoa, torrada, salgada;3.1;581;18.6;29.5;Nozes e sementes
+588;Castanha-de-caju, torrada, salgada;3.5;570;18.5;29.1;Nozes e sementes
+589;Castanhado--Brasil, crua;3.5;643;14.5;15.1;Nozes e sementes
+593;Gergelim, semente;3.9;584;21.2;21.6;Nozes e sementes
+594;Linhaça, semente;6.7;495;14.1;43.3;Nozes e sementes
+595;Pinhão, cozido;50.5;174;3.0;43.9;Nozes e sementes
+597;Noz, crua;6.2;620;14.0;18.4;Nozes e sementes
+315;Salmão, filé, com pele, fresco, grelhado;60.9;229;23.9;0.0;Pescados e frutos do mar
+291;Corvina de água doce, crua;79.2;101;18.9;0.0;Pescados e frutos do mar
+564;Feijão, fradinho, cru;12.7;339;20.2;61.2;Leguminosas e derivados
+579;Paçoca, amendoim;1.8;487;16.0;52.4;Leguminosas e derivados
+590;Coco, cru;43.0;406;3.7;10.4;Nozes e sementes
+489;Ovo, de galinha, inteiro, cru;75.6;143;13.0;1.6;Ovos e derivados
+270;Óleo, de milho;0.0;884;0.0;0.0;Gorduras e óleos
+394;Frango, coração, cru;69.1;222;12.6;0.0;Carnes e derivados
+220;Limão, tahiti, cru;87.4;32;0.9;11.1;Frutas e derivados
