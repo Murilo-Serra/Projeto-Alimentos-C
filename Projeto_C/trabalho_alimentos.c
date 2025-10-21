@@ -8,7 +8,6 @@
 #define MAX_DESC 150
 #define NOME_ARQUIVO "alimentos.csv"
 
-// Requisito 2: Implementação das categorias por meio de um enumerado.
 typedef enum {
     CEREAIS_E_DERIVADOS,
     VERDURAS_HORTALICAS_E_DERIVADOS,
@@ -28,7 +27,6 @@ typedef enum {
     CATEGORIA_INVALIDA // Para tratamento de erros
 } Categoria;
 
-// Vetor de strings para exibir os nomes das categorias
 const char* nomesCategorias[] = {
     "Cereais e derivados",
     "Verduras, hortaliças e derivados",
@@ -60,10 +58,9 @@ typedef struct {
     Categoria categoria;
 } Alimento;
 
-// Requisito 3: Estrutura para ordenação eficiente em memória
 typedef struct {
     double valor; // O valor que será usado para ordenar (umidade, energia, etc.)
-    const Alimento* alimentoPtr; // Ponteiro para o alimento original (não pode ser modificado)
+    const Alimento* alimentoPtr; // Ponteiro para o alimento original
 } ItemOrdenavel;
 
 
@@ -120,8 +117,6 @@ int main() {
 
     return 0;
 }
-
-// --- Implementação das Funções ---
 
 // Converte a string da categoria do arquivo para o tipo enum Categoria
 Categoria stringParaCategoria(const char* str) {
@@ -196,7 +191,6 @@ void exibirMenu() {
     printf("Escolha uma opção: ");
 }
 
-// Requisito 4: Implementação do algoritmo de ordenação (Bubble Sort)
 void bubbleSort(ItemOrdenavel itens[], int n, char ordem) {
     int i, j;
     ItemOrdenavel temp;
@@ -221,7 +215,7 @@ void bubbleSort(ItemOrdenavel itens[], int n, char ordem) {
     }
 }
 
-// Opção a: Lista todas as categorias
+// Opção 1: Lista todas as categorias
 void listarCategorias() {
     printf("\n--- Categorias de Alimentos ---\n");
     for (int i = 0; i < NUM_CATEGORIAS; i++) {
@@ -229,7 +223,7 @@ void listarCategorias() {
     }
 }
 
-// Opção b: Lista alimentos de uma categoria em ordem alfabética
+// Opção 2: Lista alimentos de uma categoria em ordem alfabética
 void listarAlimentosPorNome(const Alimento alimentos[], int numAlimentos) {
     Categoria categoria;
     if (!obterCategoriaDoUsuario(&categoria)) return;
@@ -268,7 +262,7 @@ void listarAlimentosPorNome(const Alimento alimentos[], int numAlimentos) {
 }
 
 
-// Opção c: Lista todos os alimentos de uma categoria por energia
+// Opção 3: Lista todos os alimentos de uma categoria por energia
 void listarAlimentosPorEnergia(const Alimento alimentos[], int numAlimentos) {
     Categoria categoria;
     if (!obterCategoriaDoUsuario(&categoria)) return;
@@ -300,7 +294,7 @@ void listarAlimentosPorEnergia(const Alimento alimentos[], int numAlimentos) {
 }
 
 
-// Opções d a i: Lista os N melhores alimentos por um critério específico
+// Opções 4 a 9: Lista os N melhores alimentos por um critério específico
 void listarTopN(const Alimento alimentos[], int numAlimentos, char criterio) {
     Categoria categoria;
     int n;
@@ -371,7 +365,7 @@ void listarTopN(const Alimento alimentos[], int numAlimentos, char criterio) {
     }
 }
 
-// Função utilitária para limpar o buffer de entrada (stdin)
+// Função utilitária para limpar o buffer de entrada
 void limparBufferEntrada() {
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
@@ -402,4 +396,5 @@ int obterN(int* n) {
     }
     limparBufferEntrada();
     return 1;
+
 }
